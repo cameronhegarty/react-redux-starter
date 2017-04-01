@@ -7,6 +7,7 @@ import { Router, Route, browserHistory } from 'react-router';
 import { syncHistoryWithStore } from 'react-router-redux';
 
 import reducers, {initialState} from 'core/reducers';
+import 'styles/style.scss';
 
 import App from 'core/components/app';
 
