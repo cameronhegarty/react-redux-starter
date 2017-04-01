@@ -23,6 +23,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "node-sass": "^3.6.0",
+    "open-browser-webpack-plugin": "0.0.5",
     "postcss-loader": "^0.9.1",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
@@ -33,15 +34,12 @@
     "fastclick": "^1.0.6",
     "history": "^2.1.1",
     "immutable": "^3.8.1",
-    "localforage": "^1.4.0",
-    "lodash": "^4.11.2",
     "react": "^15.3.2",
     "react-dom": "^15.0.2",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.0",
     "react-router-redux": "^4.0.4",
     "redux": "^3.5.2",
-    "redux-thunk": "^2.0.1",
-    "superagent": "^1.8.3"
+    "redux-thunk": "^2.0.1"
   }
 }
