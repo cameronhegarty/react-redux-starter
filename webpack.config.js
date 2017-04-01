@@ -2,6 +2,7 @@ var dev = process.argv[1] && process.argv[1].indexOf('webpack-dev-server') !== -
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var autoprefixer = require('autoprefixer');
 var webpack = require('webpack');
+var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 module.exports = {
     entry : './src/index.js',
@@ -16,6 +17,7 @@ module.exports = {
     },
     plugins : (
         dev ? ([
+            new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
             new ExtractTextPlugin('style.css'),
             new webpack.DefinePlugin({
                 __DEV__ : dev
