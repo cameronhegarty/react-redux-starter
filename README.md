@@ -15,6 +15,6 @@ $ npm install
 ```
 
 # Running the App
-`$ npm run watch` : Serves the app at localhost:8080
+`$ npm run watch` Serves the app at localhost:8080
 
-`$ npm run build` : Compiles the app to to the /dist folder
+`$ npm run build` Compiles the app to to the /dist folder
